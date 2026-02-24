@@ -145,11 +145,11 @@ export async function createBudgetPlan(
             }
         };
 
-    } catch (error) {
+    } catch (error: any) {
         console.error("AI/DB Error:", error);
         return {
             success: false,
-            message: "Failed to generate plan. Please check your API key and try again."
+            message: `Error: ${error.message || "Something went wrong"}`
         };
     }
 }
