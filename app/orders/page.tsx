@@ -89,7 +89,7 @@ export default async function OrdersPage() {
                         </CardHeader>
                         <CardContent className="pt-0">
                             <ul className="divide-y divide-gray-100">
-                                {order.orderItems.map((item) => (
+                                {order.orderItems.map((item: any) => (
                                     <li key={item.id} className="flex items-center gap-4 py-4">
                                         <div className="h-16 w-16 shrink-0 overflow-hidden rounded-md border bg-white shadow-sm">
                                             {item.product.image ? (
