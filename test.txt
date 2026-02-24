@@ -1,0 +1,2 @@
+npx prisma studio
+https://console.prisma.io/cmlv5etsu00d3tgebe5uvs7kl/cmlv63r4805ikymeclfywjcsx/cmlv63r4805iiymecvjvvp8zf/studio
